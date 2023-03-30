@@ -13,16 +13,25 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="fixed-top">
+    <header class="fixed-top d-flex align-items-center">
         <nav>
-            <div class="container-fluid d-flex align-items-center">
+            <div class="container-fluid d-flex align-items-center gap-2">
                 <a class="navbar-brand" href="#">
-                    <img src="img/mobile-logo.png" alt="Bootstrap" width="50" height="50">
+                    <img src="img/mobile-logo.png" alt="Bootstrap" width="50" height="50" class="d-block d-lg-none">
+                    <img src="img/logo.svg" alt="Bootstrap" width="100" height="50" class="d-none d-lg-block">
                 </a>
                 <div class="input-group">
                     <span class="input-group-text border-end-0 search" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <input type="text" class="form-control border-start-0 search" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
+                <div>
+                    <ul class="d-none d-lg-flex gap-2">
+                    <li><i class="fa-solid fa-list-ul"></i></li>
+                    <li><i class="fa-solid fa-question"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    </ul>
+                </div>
+                
                 <div class="dropdown">
                     <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell" style="color: #cfb53b;"></i>

@@ -1,3 +1,17 @@
+header{
+    background-color: lightgray;
+    height: 60px;
+}
+
+nav{
+    background-color: white;
+    flex-grow: 1;
+}
+
 .search{
     background-color: #E5E5E5;
+}
+
+ul{
+    list-style: none;
 }
