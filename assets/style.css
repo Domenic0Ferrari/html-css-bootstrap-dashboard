@@ -55,8 +55,16 @@ a{
     overflow-y: auto;
 }
 
+.my_badge{
+    background-color: rgba(1, 1, 122, 0.3);
+}
+
+.my_name{
+    width: 40%;
+}
+
 .fa-code{
     background-color: orangered;
     padding: 0.5rem;
-    border-radius: 100%;
+    border-radius: 50%;
 }
