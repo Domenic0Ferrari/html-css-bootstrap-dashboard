@@ -26,7 +26,7 @@ ul{
 .left-menu{
     min-width: 70px;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(7, 1, 25);
     padding-top: 60px;
     padding-inline: auto;
     background-image: url(file:///C:/Users/domen/Progetti%20Boolean/esercizi/html-css-bootstrap-dashboard/img/sidebar-bg.png);
