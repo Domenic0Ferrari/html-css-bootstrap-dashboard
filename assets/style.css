@@ -30,6 +30,7 @@ ul{
     padding-top: 60px;
     padding-inline: auto;
     background-image: url(file:///C:/Users/domen/Progetti%20Boolean/esercizi/html-css-bootstrap-dashboard/img/sidebar-bg.png);
+    background-position-y: 80px;
 }
 
 a{
@@ -52,4 +53,10 @@ a{
     padding-top: 60px;
     height: 100vh;
     overflow-y: auto;
+}
+
+.fa-code{
+    background-color: orangered;
+    padding: 0.5rem;
+    border-radius: 100%;
 }
