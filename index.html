@@ -25,10 +25,16 @@
                     <input type="text" class="form-control border-start-0 search" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <div>
-                    <ul class="d-none d-lg-flex gap-2">
-                    <li><i class="fa-solid fa-list-ul"></i></li>
-                    <li><i class="fa-solid fa-question"></i></li>
-                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    <ul class="d-none d-lg-flex gap-2 mb-0">
+                        <li>
+                            <i class="fa-solid fa-list-ul"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-question"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </li>
                     </ul>
                 </div>
                 
@@ -37,9 +43,15 @@
                         <i class="fa-solid fa-bell" style="color: #cfb53b;"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Profilo</a></li>
-                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Profilo</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Fatturazione</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -48,7 +60,35 @@
 
     <main class="d-flex">
 
-        <section class="left-menu">
+        <section class="left-menu text-light d-flex flex-column justify-content-between">
+            <ul class="mt-3 d-flex flex-column align-items-center gap-2">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <span class="text-light d-none d-lg-inline">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-chart-bar" style="color: #ffffff;"></i>
+                        <span class="text-light d-none d-lg-inline">Stats</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
+                        <span class="text-light d-none d-lg-inline">Signals</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="d-flex justify-content-center">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                        <span class="text-light d-none d-lg-inline">Admin</span>
+                    </a>
+                </li>
+            </ul>
         </section>
 
         <section class="central">

@@ -1,3 +1,5 @@
+/* header */
+
 header{
     background-color: lightgray;
     height: 60px;
@@ -14,4 +16,25 @@ nav{
 
 ul{
     list-style: none;
+    padding: 0;
+}
+
+/* main */
+
+.left-menu{
+    width: 70px;
+    height: 100vh;
+    background-color: black;
+    padding-top: 60px;
+    padding-inline: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width:992px){
+    .left-menu{
+        width: 120px;
+    }
 }
